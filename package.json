@@ -1,22 +1,18 @@
 {
   "name": "rage-snippets",
-  "version": "0.0.1",
-  "description": "Atmo snippets",
-  "main": "./lib/rage-snippets",
+  "main": "./lib/snippets",
+  "version": "0.0.0",
+  "description": "A short description of your package",
   "keywords": [
-    "snipets"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/laynefaler/atom.io-snippets.git"
+  "activationCommands": {
+    "atom-workspace": "snippets:toggle"
   },
-  "author": "Layne Faler <laynefaler>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/laynefaler/atom.io-snippets/issues"
-  },
+  "repository": "https://github.com/atom/snippets",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/laynefaler/atom.io-snippets#readme"
+  "dependencies": {
+  }
 }
