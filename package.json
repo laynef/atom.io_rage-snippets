@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+        "spec": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/apm-install-dir-116921-48027-so0w9k"
+    ]
+  ],
+  "_from": "../d-116921-48027-1xgargz/package.tgz",
+  "_id": "rage-snippets@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/rage-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+    "spec": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116921-48027-1xgargz/package.tgz",
+  "_shasum": "99b6462f039fafba89bafab11f0e52a160c6cb17",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/d-116921-48027-1xgargz/package.tgz",
+  "_where": "/private/var/folders/r4/vnc94f6d63ng6zj9qkxcsnzh0000gn/T/apm-install-dir-116921-48027-so0w9k",
+  "activationCommands": {
+    "atom-workspace": "rage-snippets:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/rage-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "A short description of your package",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom/rage-snippets#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/rage-snippets",
+  "name": "rage-snippets",
+  "optionalDependencies": {},
+  "readme": "# rage-snippets package\n\nA short description of your package.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/rage-snippets.git"
+  },
+  "version": "1.1.0"
+}

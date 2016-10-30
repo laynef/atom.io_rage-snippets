@@ -1,0 +1,43 @@
+# @Author: Layne Faler <laynefaler>
+# @Date:   10-20-2016
+# @Email:  laynefaler@gmail.com
+# @Last modified by:   laynefaler
+# @Last modified time: 10-21-2016
+
+'.source.scss':
+  'Wolves Bourbon':
+    'prefix': 'wolf'
+    'body': '
+  @import "{wolves:bourbon}/bourbon";\n@import "{wolves:neat}/neat";\n@import "{wolves:bitters}/base";\n\n'
+
+'.source.js':
+  'Meteor React imports':
+    'prefix': '_im'
+    'body': "import { Meteor } from 'meteor/meteor';"
+  'Export Default':
+    'prefix': 'ed'
+    'body': 'export default ${1};'
+  'React Class Skele':
+    'prefix': 'crc'
+    'body': 'var $1 = React.createClass({\n\trender: function() {\n\t\treturn (\n\t\t\t<div>\n\n\t\t\t</div>\n\t\t);\n\t}\n});'
+  'ReactDOM render':
+    'prefix': '_dom'
+    'body': 'ReactDOM.render(<${1} />, document.getElementById("${2}"));'
+  'Import File':
+    'prefix': 'imp'
+    'body': "import ${1} from '${2}';"
+  'React Func Template':
+    'prefix': 'rft'
+    'body': "${1}: function(${2}) {\n\t${3}\n},"
+  'Meteor Startup':
+    'prefix': '_ms'
+    'body': 'Meteor.startup(function() {\n\t${1}\n});'
+  'Export':
+    'prefix': 'e'
+    'body': 'export ${1}'
+  'Export Default':
+    'prefix': 'ed'
+    'body': 'export default ${1}'
+  'Constant':
+    'prefix': 'c'
+    'body': 'const ${1}'
