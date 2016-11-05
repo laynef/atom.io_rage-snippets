@@ -20,7 +20,7 @@
     'prefix': '_s'
     'body': '{\n\n${1}}'
   'Author':
-    'prefix': 'me'
+    'prefix': '_me'
     'body': '"author": "Layne Faler <laynefaler>",\n'
   'Object Entry':
     'prefix': "o"
@@ -78,10 +78,10 @@
 
     var MenuElements = MenuList.map(function(e,i,a) {
       var link = e.replace(/[^a-zA-Z]/g, '').toLowerCase();
-      if (e === "Home") link = "";
+      if (e === "Home") link = \"\";
       return (
         <li>
-          <Link to={"/" + link}>{e}</Link>
+          <Link to={\"/\" + link}>{e}</Link>
         </li>
       );
     });
@@ -89,7 +89,7 @@
     var Menu = React.createClass({
       render: function() {
         return (
-          <div id="menu">
+          <div id=\"menu\">
             <ul>
               <MenuElements />
             </ul>
