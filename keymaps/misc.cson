@@ -29,9 +29,9 @@
 '.source.scss':
   'Wolves Bourbon':
     'prefix': 'wolf'
-    'body': '
+    'body': """
   @import "{wolves:bourbon}/bourbon";
-  @import "{wolves:neat}/neat";\n@import "{wolves:bitters}/base";\n\n'
+  @import "{wolves:neat}/neat";\n@import "{wolves:bitters}/base";\n\n"""
 
 '.source.js':
   'Meteor React imports':
