@@ -2,7 +2,7 @@
 # @Date:   10-20-2016
 # @Email:  laynefaler@gmail.com
 # @Last modified by:   laynefaler
-# @Last modified time: 10-21-2016
+# @Last modified time: 11-05-2016
 
 '.source.scss':
   'Wolves Bourbon':
@@ -41,3 +41,21 @@
   'Constant':
     'prefix': 'c'
     'body': 'const ${1}'
+  'ES6 Return':
+    'prefix': 'r'
+    'body': "=> (\n\t${1}\n)"
+  'ES6 Function':
+    'prefix': 'fun'
+    'body': "(${1}) => ${2}"
+  'isRequired':
+    'prefix': 'iq'
+    'body': "isRequired"
+  'setState':
+    'prefix': 'ss'
+    'body': "setState({${1}})"
+  'this':
+    'prefix': 't'
+    'body': "this."
+  'Angular Import':
+    'prefix': '_ia'
+    'body': "import angular from 'angular';\n"
