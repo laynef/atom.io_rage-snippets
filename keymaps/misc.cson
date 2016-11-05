@@ -2,7 +2,29 @@
 # @Date:   10-20-2016
 # @Email:  laynefaler@gmail.com
 # @Last modified by:   laynefaler
-# @Last modified time: 10-21-2016
+# @Last modified time: 11-05-2016
+'.source.json':
+  'Single String':
+    'prefix': '_ss'
+    'body': '"${1}": "${2}",\n'
+  'Single Array':
+    'prefix': '_sa'
+    'body': '"${1}": [${2}],\n'
+  'Single Object':
+    'prefix': '_so'
+    'body': '"${1}": {${2}},\n'
+  'Single Blank':
+    'prefix': '_sb'
+    'body': '"${1}": ${2},\n'
+  'Start':
+    'prefix': '_s'
+    'body': '{\n\n${1}}'
+  'Author':
+    'prefix': 'me'
+    'body': '"author": "Layne Faler <laynefaler>",\n'
+  'Object Entry':
+    'prefix': "o"
+    'body': "${1} : ${2},\n"
 
 '.source.scss':
   'Wolves Bourbon':
@@ -41,3 +63,38 @@
   'Constant':
     'prefix': 'c'
     'body': 'const ${1}'
+'.source.js':
+  'React Menu Snippet':
+    'prefix': '_rmenu'
+    'body': """
+    import React from 'react';
+    import { Router, Route, Link } from 'react-router';
+
+    var MenuList = [
+      // enter menu items
+    ];
+
+    var MenuElements = MenuList.map(function(e,i,a) {
+      var link = e.replace(/[^a-zA-Z]/g, '').toLowerCase();
+      if (e === "Home") link = "";
+      return (
+        <li>
+          <Link to={"/" + link}>{e}</Link>
+        </li>
+      );
+    });
+
+    var Menu = React.createClass({
+      render: function() {
+        return (
+          <div id="menu">
+            <ul>
+              <MenuElements />
+            </ul>
+          </div>
+        );
+      }
+    });
+
+    module.exports = Menu;
+    """
