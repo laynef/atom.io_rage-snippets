@@ -30,7 +30,8 @@
   'Wolves Bourbon':
     'prefix': 'wolf'
     'body': '
-  @import "{wolves:bourbon}/bourbon";\n@import "{wolves:neat}/neat";\n@import "{wolves:bitters}/base";\n\n'
+  @import "{wolves:bourbon}/bourbon";
+  @import "{wolves:neat}/neat";\n@import "{wolves:bitters}/base";\n\n'
 
 '.source.js':
   'Meteor React imports':
@@ -41,7 +42,9 @@
     'body': 'export default ${1};'
   'React Class Skele':
     'prefix': 'crc'
-    'body': 'var $1 = React.createClass({\n\trender: function() {\n\t\treturn (\n\t\t\t<div>\n\n\t\t\t</div>\n\t\t);\n\t}\n});'
+    'body': """var $1 = React.createClass({
+      \trender: function() {
+        \t\treturn (\n\t\t\t<div>\n\n\t\t\t</div>\n\t\t);\n\t}\n});"""
   'ReactDOM render':
     'prefix': '_dom'
     'body': 'ReactDOM.render(<${1} />, document.getElementById("${2}"));'
