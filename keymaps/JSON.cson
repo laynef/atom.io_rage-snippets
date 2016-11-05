@@ -1,0 +1,28 @@
+# @Author: Layne Faler <laynefaler>
+# @Date:   11-05-2016
+# @Email:  laynefaler@gmail.com
+# @Last modified by:   laynefaler
+# @Last modified time: 11-05-2016
+
+'.source.json':
+  'Single String':
+    'prefix': '_ss'
+    'body': '"${1}": "${2}",\n'
+  'Single Array':
+    'prefix': '_sa'
+    'body': '"${1}": [${2}],\n'
+  'Single Object':
+    'prefix': '_so'
+    'body': '"${1}": {${2}},\n'
+  'Single Blank':
+    'prefix': '_sb'
+    'body': '"${1}": ${2},\n'
+  'Start':
+    'prefix': '_s'
+    'body': '{\n\n${1}}'
+  'Author':
+    'prefix': 'me'
+    'body': '"author": "Layne Faler <laynefaler>",\n'
+  'Object Entry':
+    'prefix': "o"
+    'body': "${1} : ${2},\n"
